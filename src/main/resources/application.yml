@@ -1,6 +1,8 @@
 spring:
   cache:
-    type: simple
+    type: redis
+  redis:
+    host: localhost
 logging:
   level:
     org.springframework.cache: TRACE
